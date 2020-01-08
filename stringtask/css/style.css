@@ -1,0 +1,89 @@
+﻿body {
+    background: black;
+    color: white;
+    font-family: Verdana, serif;
+}
+
+#console {
+    overflow: auto;
+    border: 1px solid #00FF00;
+    margin: 20px 0 0 0;
+    color: #00FF00;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+button {
+    background: #e0e0e0;
+    border: 1px solid #949494;
+    width: 192px;
+    height: 30px;
+    padding-left: 0;
+    color: #1c1c1c;
+    margin: 10px 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+header h2 {
+    margin-right: 15px;
+}
+
+header h2 a.active {
+    text-decoration: underline;
+}
+
+input {
+    border: 1px solid #949494;
+    width: 180px;
+    height: 25px;
+    padding-left: 10px;
+    background: #282828;
+    color: #e0e0e0;
+}
+
+.tasks {
+    display: flex;
+}
+
+.tasks span {
+    margin-right: 10px;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+span {
+    margin-right: 35px;
+}
+
+textarea {
+    width: 300px;
+    min-height: 70px;
+    resize: none;
+}
+
+.current {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type='number'] {
+    -moz-appearance: textfield;
+}

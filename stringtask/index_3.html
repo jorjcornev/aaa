@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Task 3</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/js-console.css">
+</head>
+<body>
+
+<header>
+    <h2><a href="./index.html">Task 1</a></h2>
+    <h2><a href="index_2.html">Task 2</a></h2>
+    <h2><a class="active" href="./index_3.html">Task 3</a></h2>
+    <h2><a href="index_4.html">Task 4</a></h2>
+    <h2><a href="./index_5.html">Task 5</a></h2>
+</header>
+
+<div class="text">
+    <span>Text: </span>
+    <textarea></textarea>
+</div>
+
+<div class="tasks">
+    <span>Substring: </span>
+    <div>
+        <input type="text" id="substring"/>
+        <br>
+        <button type="button" onclick="getCountSubstring()">Execute</button>
+    </div>
+</div>
+
+<div id="console" class="js-console"></div>
+
+<script src="./js/js-console.js"></script>
+<script src="./js/script.js"></script>
+</body>
+</html>
